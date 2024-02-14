@@ -9,7 +9,7 @@ function App() {
         <Route exact path="/" element={<JobOpenings/>} />
         <Route path="/job/:jobId" element={<JobInfo/>} />
       </Routes>
-    </Router>
+    </Router> 
   );
 }
 
